@@ -1,4 +1,5 @@
 %global name floorp
+%global debug_package %{nil}
 
 Name: floorp
 Version: 12.0.6
