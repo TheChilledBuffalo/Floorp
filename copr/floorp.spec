@@ -40,11 +40,11 @@ See the latest changelog at: https://blog.floorp.app/
 
 %__install -D -m 0755 %{SOURCE3} -t %{buildroot}%{_bindir}
 
-%__ln_s ../../../../../../opt/%{name}/browser/chrome/icons/default/default128.png %{buildroot}%{_datadir}/icons/hicolor/128x128/apps/%{full_name}.png
-%__ln_s ../../../../../../opt/%{name}/browser/chrome/icons/default/default64.png %{buildroot}%{_datadir}/icons/hicolor/64x64/apps/%{full_name}.png
-%__ln_s ../../../../../../opt/%{name}/browser/chrome/icons/default/default48.png %{buildroot}%{_datadir}/icons/hicolor/48x48/apps/%{full_name}.png
-%__ln_s ../../../../../../opt/%{name}/browser/chrome/icons/default/default32.png %{buildroot}%{_datadir}/icons/hicolor/32x32/apps/%{full_name}.png
-%__ln_s ../../../../../../opt/%{name}/browser/chrome/icons/default/default16.png %{buildroot}%{_datadir}/icons/hicolor/16x16/apps/%{full_name}.png
+%__ln_s ../../../../../../opt/%{name}/browser/chrome/icons/default/default128.png %{buildroot}%{_datadir}/icons/hicolor/128x128/apps/%{name}.png
+%__ln_s ../../../../../../opt/%{name}/browser/chrome/icons/default/default64.png %{buildroot}%{_datadir}/icons/hicolor/64x64/apps/%{name}.png
+%__ln_s ../../../../../../opt/%{name}/browser/chrome/icons/default/default48.png %{buildroot}%{_datadir}/icons/hicolor/48x48/apps/%{name}.png
+%__ln_s ../../../../../../opt/%{name}/browser/chrome/icons/default/default32.png %{buildroot}%{_datadir}/icons/hicolor/32x32/apps/%{name}.png
+%__ln_s ../../../../../../opt/%{name}/browser/chrome/icons/default/default16.png %{buildroot}%{_datadir}/icons/hicolor/16x16/apps/%{name}.png
 
 %files
 %{_datadir}/applications/%{name}.desktop
