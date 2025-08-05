@@ -13,7 +13,7 @@ Source1: floorp.desktop
 Source2: policies.json
 Source3: floorp
 
-BuildArch: x86_64
+ExclusiveArch: x86_64
 
 # Full description of the package
 # Can be multiline, anything until the next section (%%prep) becomes part of
